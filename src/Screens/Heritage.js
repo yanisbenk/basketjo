@@ -10,10 +10,17 @@ const ContainerDiv = styled.div`
   justify-content: center;
   align-items: center;
   color: black;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #fa8320;
+  opacity: 80%;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+
+  h2 {
+    opacity: 100%;
+  }
 
   div {
     padding: 15px;
+    opacity: 100%;
   }
 `;
 

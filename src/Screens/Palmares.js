@@ -13,8 +13,10 @@ const ContainerDiv = styled.div`
   align-items: center;
   color: black;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 80%;
+  background-color: #fa8320;
   margin-top: 8vh;
+  font-family: monaco, Consolas, Lucida Console, monospace;
 
   div {
     padding: 15px;

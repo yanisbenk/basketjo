@@ -9,6 +9,8 @@ import Legendes from "./Screens/Legendes";
 import { Router, Route } from "react-router-dom";
 
 const AppContainer = styled.div`
+  min-width: 1100px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

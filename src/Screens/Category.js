@@ -21,8 +21,10 @@ const Circle = styled.div`
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: white; /* Orange couleur balle de basket */
+  background-color: #fa8320; /* Orange couleur balle de basket */
   margin: 29px 0;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+
   opacity: 0.8;
   display: flex;
   justify-content: center;

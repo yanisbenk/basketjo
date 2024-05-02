@@ -4,12 +4,11 @@ import AdminScreen from "../Screens/admin";
 
 const NavbarContainer = styled.nav`
   position: fixed;
-  top: 0;
-  width: 98%;
+  width: 100%;
   display: flex;
+  padding: 10px 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   background-color: transparent;
   color: #fff;
   z-index: 1000;
@@ -17,20 +16,22 @@ const NavbarContainer = styled.nav`
 
 const Logo = styled.div`
   img {
-    width: 75px;
+    width: 50px;
     height: 75px;
+    padding-left: 20px;
   }
 `;
 
 const Menu = styled.div`
   position: relative;
-  padding-right: 40px;
+  padding-right: 50px;
 `;
 
 const MenuToggle = styled.button`
-  background: white;
+  background: #fa8320;
   border: none;
   color: black;
+  font-family: monaco, Consolas, Lucida Console, monospace;
   cursor: pointer;
   padding: 8px 10px;
   &:hover {
@@ -54,7 +55,7 @@ const DropdownMenu = styled.ul`
   position: absolute;
   top: 100%;
   left: 32px;
-  background-color: white;
+  background-color: #fa8320;
   list-style-type: none;
   padding: 10px;
   margin: 0;
@@ -70,6 +71,8 @@ const MenuItemButton = styled.a`
   border: none;
   cursor: pointer;
   padding: 8px 0;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+
   color: black;
   position: relative;
   width: 100%;

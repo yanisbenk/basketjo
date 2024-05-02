@@ -10,12 +10,9 @@ const ContainerDiv = styled.div`
   justify-content: center;
   align-items: center;
   color: black;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.8
-  ); /* Couleur blanche avec une opacité de 0.8 */
+  background-color: #fa8320;
+  opacity: 80%;
+  font-family: monaco, Consolas, Lucida Console, monospace;
 
   div {
     padding: 15px;
